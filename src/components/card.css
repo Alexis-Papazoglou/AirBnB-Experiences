@@ -1,0 +1,52 @@
+.card-conteiner{
+
+    max-width: 250px;
+
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0px;
+
+    transition: 1000ms;    
+
+    background-color: rgb(255, 167, 170);
+}
+
+.card-conteiner:hover{
+    background-color: rgb(255,90,95);
+}
+
+.card-text{
+    padding: 10px;
+}
+
+.card-conteiner > img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-text > p{
+    font-weight: 600;
+}
+
+.card-text > span{
+    margin: 1px;
+}
+
+.card-conteiner{
+    position: relative;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+
+}
+
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
